@@ -1,0 +1,13 @@
+[package]
+name = "c_get_rust_string_by_method"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.139"
+
+[lib]
+crate_type = ["cdylib"]
+name = "demo"
